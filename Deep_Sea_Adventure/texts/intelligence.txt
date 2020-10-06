@@ -1,0 +1,51 @@
+Comments on Computer Intelligence.
+
+I have designed a strategy, that, for now,
+can only work on a two player game and only in round 1. This is because
+in the first round the board is always the same, and afterwards it can 
+change very drastically. I have played the game many times now, albeit
+against myself, and I do have some intuition on how to play the game. 
+
+You try to go to "around the middle" (this is kind of a gut thing) and as 
+you go back you opportunistically pick some chips along the way. This is
+only if the air permits it. And it highly depends on wether the enemies have 
+greeded or not. This is doubly hard considering I have to do two decisions per
+turn, each of them related. 
+
+Going around the middle means try to get to the level two's in two or 
+three turns. Once there, you should 
+probably pick the chip, unless the conditions allow you
+to keep going. 
+
+As soon as you pick a chip, YOU MUST TURN
+BACK. You can maybe greed a bit and take chips close to
+the submarine, but only that. You are probably in the 
+10 to 14 spot in the board, and taking in consideration
+that the expected value of the die is 3 (effectively 2)
+there is a small margin for you to turn back. 
+
+If you decide to keep going, in most occasions you will
+want to pick the first chip possible and turn back. 
+
+As you return you pick up chips if air allows and also
+if the enemy is playing good or bad.
+
+You only pick early if there are no more chances and the
+air allows. You only pick to get three if you are in the 
+last spot before the submarine (the effective expected
+value now is 0, so technically you are lucky if
+you make it back).
+
+It is very likely that the Bot will not behave as I want 
+it to if it takes one of the alternative paths (not 
+picking a level 2 and keeps going).
+
+By the way, my bot does not place chips. It is simply a strategy
+that I don't believe in. Using the cautious method I implement, 
+placing chips can be detrimental: I techinically only choose one
+chip per turn (for sure), and if I am given the chance to 
+place, then I must also be turning back, close to the submarine
+it doesn't make sense to lose the only points I have. 
+
+The specifics are will take me too long, so please check
+out the comments in the module. 

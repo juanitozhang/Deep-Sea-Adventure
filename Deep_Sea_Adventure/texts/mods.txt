@@ -1,0 +1,14 @@
+THE MODIFICATIONS THAT WERE DONE ARE:
+
+1. To determine the first player in the game,
+   we leave to the players to decide.
+
+2. In sunken ruin chips, the players cannot
+   decide where to stack them, it is done rand
+   omly. Also, each round starts the stacking
+   all over again, so that if there was 
+   a stack of 2 in the last round, it will not 
+   be completed into a stack of 3. 
+   
+3. If two players get the same points it simply
+   ends in a draw. 
